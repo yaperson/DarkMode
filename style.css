@@ -1,5 +1,6 @@
 body{
     color: black;
+    transition: 0.5s;
     margin: 0;
   }
 
@@ -33,6 +34,7 @@ body{
 .dark-mode {
     background-color: rgb(27, 27, 27);
     color: rgb(230, 230, 230);
+    transition: 0.5s;
   }
 
 .para{
