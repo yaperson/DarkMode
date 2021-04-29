@@ -1,0 +1,76 @@
+body{
+    color: black;
+    margin: 0;
+  }
+
+  /**** menu ****/
+  .topnav {
+    overflow: hidden;
+    background-color:  rgb(58, 58, 58);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:  rgb(58, 58, 58);
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #808080;
+    color: white;
+  }
+  /**** fin nav ****/
+
+.dark-mode {
+    background-color: rgb(27, 27, 27);
+    color: rgb(230, 230, 230);
+  }
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 40%;
+    margin: 0.5%;
+  }
+  /***************************************/
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+.bt4{
+  color: rgb(95, 95, 95);
+  border-color: rgb(182, 35, 175);
+  transition: .2s;
+}
+.bt4:hover{
+  transition: .2s;
+  border-color: rgb(182, 35, 175);
+}
+.bt4:active{
+  animation: pulse2 .2s;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgb(182, 89, 35);}
+  50% { box-shadow: 0 0 2em rgb(182, 89, 35);}
+  100% { box-shadow: 0 0 0 0 rgb(182, 89, 35);}
+}
+@keyframes pulse2 {
+  0% { box-shadow: 0 0 0 0 rgb(182, 35, 143); border: solid;}
+  50% { box-shadow: 0 0 2em rgb(211, 95, 180); border: solid;}
+  100% { box-shadow: 0 0 0 0 rgb(182, 35, 143);}
+}
+/***************************************/
